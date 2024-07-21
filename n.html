@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Race Game</title>
+    <link rel="stylesheet" href="n.css">
+</head>
+<body>
+    <h1>Running Race Game</h1>
+    <div id="tracks">
+        <div class="track" id="track1">
+            <img id="player1" class="player" src="animated-man-running1gif-5.png"  alt="Player 1">
+        </div>
+        <div class="track" id="track2">
+            <img id="player2" class="player" src="animatedrunning2gif-5.png" alt="Player 2">
+        </div>
+    </div>
+    
+    <!-- Winner Modal -->
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="winnerText"></p>
+        </div>
+    </div>
+    
+    <!-- Countdown Modal -->
+    <div id="countdownModal" class="modal">
+        <div class="modal-content">
+            <p id="timer"></p>
+        </div>
+    </div>
+    
+    <script src="n.js"></script>
+</body>
+</html>
